@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-container, .dashboard {
+  width: 300px;
+  margin: 100px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-form input {
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.switch-btn {
+  background: #6c757d;
+  margin-top: 1rem;
+}
+
+.logout-btn {
+  background: #dc3545;
+  margin-top: 1rem;
+}
