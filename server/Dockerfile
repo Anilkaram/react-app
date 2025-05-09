@@ -1,6 +1,6 @@
 FROM node:18
 WORKDIR /app
-COPY REACT-APP/package*.json ./
+COPY package*.json ./
 RUN npm install
 COPY . .    
 EXPOSE 3000
